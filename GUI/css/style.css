@@ -1,0 +1,214 @@
+/* CSS */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background: #FFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 1010px;
+    margin: auto;   /* sét khoảng cách lề tự đông đẻ canh giữa trang*/
+    margin-bottom: 10px;
+    background: #FFF;
+    color: #000;
+}
+
+#sidebar{
+    margin: auto;  
+}
+/* HEARDER */
+.nav{
+    background:#FFD700;
+    height:50px;
+    margin-top:0px;
+   }
+.nav ul{list-style:none;margin:0;padding:0;margin-left: 0px;display:block;line-height:52px;}
+.nav ul li{width:200px; height:50px;
+    display:inline-block;background: #FFD700;
+    text-align: center;position:relative;}
+.nav ul li a{display:block;padding:7px 10px;color: #000; padding-left: 20px;
+    padding-right: 20px;line-height: 36px;}
+.nav ul li ul{position:absolute;display:none; z-index:100;right: 0px;top: 50px;}
+.nav ul li a:hover{background-color:#F0E68C;columns: #111111;;}
+.nav ul li:hover >ul{display:block}
+.nav ul li ul li{
+    width:200px;
+    height:50px;
+    display:block;
+    background:#DDDDDD; 
+    border-top:1px;
+}
+.nav ul li ul li ul{position:absolute;display:none; z-index:100;}
+.nav ul li ul li ul{left: 200px;    top: 0px;}
+.nav ul li ul li ul li ul{left: 200px;    top: 0px;}
+
+#header{
+    background:  #FFD700;
+    text-align: center;
+    color:#111;
+}
+
+ .logo{
+     font-size: 18px;
+     font-style: italic;
+     font-weight: bold;
+ }
+
+.search{
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 12px;
+  }
+
+a{
+    text-decoration: none;  
+    color: #000;
+}
+/* SIDEBAR */
+.slide{
+    width: 658px;
+    overflow: hidden;
+    margin-top: 10px;
+    position: relative; /* dinh vi tuyet doi cho angle*/
+  }
+  .chuyen-slide{
+    width: 9999px;
+    transition: all 0.4s;
+  }
+  img{
+    width: 658px;
+    height: 238px;
+    float:left;
+  }
+  .dieukhien{
+    position: absolute;
+    color: #DCDCDC;
+    font-size: 40px;
+    top: 40%;
+    padding-left: 10px;
+  }
+
+ .dieukhien i:last-child{
+    position: relative;
+    left: 575px;
+  }
+
+/**/
+.quangcao img{
+    margin-top: 7px;
+    width: 1010px;
+    height: 70px;
+}
+ .quangcaotop img{
+    margin-top: -238px;
+    width: 340px;
+    height: 90px;
+    float: right;
+ }
+
+ .quangcaobottom img{
+    margin-top: -137px;
+    width: 340px;
+    height: 85px;
+    float: right;
+ }
+
+ .quangcaofinish img{
+    margin-top: -40px;
+    width: 340px;
+    height: 85px;
+    float: right;
+ }
+
+ .clickdichuyen{
+    margin-top: 10px;
+    height: 40px;
+    font: italic bold 12.5px arial;
+}
+
+ .clickdichuyen tr td{
+     text-align: center;
+ }
+
+ /* CONTENT */
+ #content{
+    float: left;
+}
+
+.box{
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+}
+
+.box:nth-child(even){     /* định dạng cho các block chẵn*/
+    margin-right: 32px;
+}
+
+.box:nth-child(odd){   /* định dạng cho các block lẻ*/
+    /*margin-left: 15px;*/
+    margin-right: 32px;
+}
+
+.box img{
+    width: 220px;
+}
+
+.pname{
+    font: bold 14px arial;
+    color: #F39;
+    margin-top: 5px;
+}
+
+.pprice{
+    font: bold 12px arial;
+    color: #F30;
+}
+
+.action{
+    font: italic bold 10px arial;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    color: #F96;
+    text-align: right;
+}
+/*-------------------------------------------*/
+/*CSS cho trang chi tiet san pham*/
+.noidung
+ {
+    max-width: 1010px;
+    min-height: 500px;   
+ }
+ .content_left {
+    float: left;
+ }
+ .box1 {
+     margin-top: 15px;
+     border:5px solid red;
+     width: 300px;
+     /*max-width: 300px;*/
+     /*max-height: 300px;*/
+ }
+ .box1 img {
+    width: 220px!important;
+ }
+ .content_right {
+    float: right;
+
+ }
+ .duoi
+ {
+     margin-top:30px;
+    min-height: 200px;
+    
+ }
+ .tren
+ {
+     margin-top:30px;
+     min-height: 906px;
+ }

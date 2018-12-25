@@ -1,0 +1,1 @@
+t da fix cac loi, xem csdl moi, trong bang TaiKhoan t bo cot ngaysinh vi t them vo hoai khong duoc, cho chao user no bi loi, m sua gium t
